@@ -1,0 +1,42 @@
+img{
+    height: 200px;
+    width: 100%;
+ }
+.maindiv{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 5fr;
+}
+.sidebar{
+    
+    margin-top: 10px;
+    grid-row:1/12 ;
+}
+.teamContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap:10px;
+   width: 90%;
+   float: right;
+   margin:8px 16px;
+   padding: 0 8px;
+}
+@media screen and (max-width: 650px) {
+    h1{
+        text-align: center;
+    }
+.teamContainer {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+}
+ .Designation {
+   color: rgb(15, 0, 100);
+   font-weight: bolder;
+   font-size: 40px;
+}
+
+.checked {
+   color: orange;
+ }
+ 
